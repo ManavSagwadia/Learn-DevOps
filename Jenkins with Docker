@@ -3,7 +3,7 @@
 -- Create a bridge network in Docker using the following docker network create command:
         * docker network create jenkins
         
-docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins:2.60.3
+docker run -d --name myjenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home jenkins/jenkins:lts
 
   
 -- Customise official Jenkins Docker image, by executing below two steps:
