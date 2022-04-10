@@ -25,3 +25,9 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.25.3 docker-workflow:1.28"
 To Get access to the container or jenkins 
 --- ifconfig to get ip 
 --- https://localhost:8080
+
+
+
+*********Content for reference.***********
+
+https://rangle.io/blog/running-jenkins-and-persisting-state-locally-using-docker-2/
